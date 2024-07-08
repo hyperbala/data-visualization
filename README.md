@@ -16,8 +16,7 @@ This project is a dashboard application built using Flask for the backend and Re
 - **Backend:** Flask
 - **Frontend:** React
 - **Database:** MongoDB Atlas
-- **Charting Libraries:** D3.js, Chart.js
-- **Deployment:** TBD (e.g., Heroku, AWS)
+- **Charting Libraries:** Chart.js
 
 ## Prerequisites
 
@@ -56,7 +55,7 @@ This project is a dashboard application built using Flask for the backend and Re
 3. **Frontend Setup:**
     - Navigate to the `frontend` directory:
       ```bash
-      cd frontend
+      cd client
       ```
     - Install the required Node packages:
       ```bash
@@ -69,15 +68,11 @@ This project is a dashboard application built using Flask for the backend and Re
 
 ## Usage
 
-- **Uploading Data:**
-  - Access the `/upload` endpoint to upload JSON data to the MongoDB database.
-  - Ensure the JSON data is correctly formatted.
-
-- **Filtering Data:**
-  - Use the filter options on the dashboard to filter data based on various criteria.
-
 - **Visualizing Data:**
   - The dashboard displays various charts visualizing the data. Charts update based on the applied filters.
+  - 
+- **Filtering Data:**
+  - Use the filter options on the dashboard to filter data based on various criteria.
 
 ## API Endpoints
 
@@ -95,21 +90,8 @@ This project is a dashboard application built using Flask for the backend and Re
 - **MongoDB Atlas:**
   - Sign up for [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) and create a new cluster.
   - Configure network access and get the connection URI.
-  - Update the `mongo_uri` in `app.py` with your MongoDB Atlas connection URI.
-
-- **Hosting:**
-  - Choose a hosting provider (e.g., Heroku, AWS).
-  - Follow their deployment instructions to deploy your Flask application.
-
-## Contributing
-
-Contributions are welcome! Please fork the repository and create a pull request with your changes.
-
-## License
-
-This project is licensed under the MIT License.
-
+  - Update the `mongo_uri` in `app.py` with your MongoDB Atlas connection URI
 ## Contact
 
-For any inquiries or issues, please contact [your-email@example.com](mailto:your-email@example.com).
+For any inquiries or issues, please contact [balagopaloff@gmail.com](mailto:balagopaloff@gmail.com).
 
