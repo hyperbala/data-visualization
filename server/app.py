@@ -6,10 +6,7 @@ from bson.objectid import ObjectId
 from pymongo import MongoClient
 
 app = Flask(__name__)
-
-CORS(app, resources={r"/*": {"origins": "http://localhost:3000"}})  # Change to your frontend's URL in production
-
-
+CORS(app, resources={r"/*": {"origins": "*"}}) 
 # MongoDB setup
 mongo_uri = 'mongodb+srv://balagopal123r:ravibhba@cluster0.rzakxoh.mongodb.net/?retryWrites=true&w=majority'
 db_name = 'dashboardDB'
