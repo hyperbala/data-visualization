@@ -25,7 +25,7 @@ const HomePage = () => {
   const fetchData = async (filters = {}) => {
     try {
       const query = new URLSearchParams(filters).toString();
-      const response = await fetch(`http://localhost:5000/data?${query}`);
+      const response = await fetch(`https://api.render.com/deploy/srv-cq5u90tds78s73d8qlkg?key=p4q-FuBMWMY/data?${query}`);
       const result = await response.json();
       setData(result);
       setFilteredData(result);
@@ -37,7 +37,7 @@ const HomePage = () => {
   const fetchFilteredData = async (filters = {}, component) => {
     try {
       const query = new URLSearchParams(filters).toString();
-      const response = await fetch(`http://localhost:5000/data?${query}`);
+      const response = await fetch(`https://api.render.com/deploy/srv-cq5u90tds78s73d8qlkg?key=p4q-FuBMWMY/data?${query}`);
       const result = await response.json();
       if (component === 'relevance') {
         setRelevanceData(result);
