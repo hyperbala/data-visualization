@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 1024px) {
+    .md\:grid.grid-cols-2 {
+      grid-template-columns: 1fr; /* Change to single column layout on tablets */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .md\:grid.grid-cols-2 {
+      grid-template-columns: 1fr; /* Adjust grid layout for smaller devices */
+    }
+    .lg\:mx-9 {
+      margin-left: 2rem;
+      margin-right: 2rem; /* Reduce horizontal margin on smaller screens */
+    }
+  }
