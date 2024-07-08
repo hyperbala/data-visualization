@@ -81,6 +81,11 @@ def get_data():
     
     return jsonify(data)
 
+@app.route('/')
+def home():
+    return jsonify({"message": "Welcome to the Data Visualization Dashboard API"}), 200
+
+
 @app.route('/filters', methods=['GET'])
 def get_filters():
     filters = {}
