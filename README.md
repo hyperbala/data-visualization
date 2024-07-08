@@ -93,5 +93,5 @@ This project is a dashboard application built using Flask for the backend and Re
   - Update the `mongo_uri` in `app.py` with your MongoDB Atlas connection URI
 ## Contact
 
-For any inquiries or issues, please contact [your-email@example.com](mailto:balagopaloff.com).
+For any inquiries or issues, please contact [balagopaloff@gmail.com](mailto:balagopaloff@gmail.com).
 
