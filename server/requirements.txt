@@ -1,3 +1,3 @@
-Flask
-Flask-Cors
-pymongo
+Flask==3.0.3
+Flask-Cors==4.0.1
+pymongo==4.8.0
