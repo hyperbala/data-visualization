@@ -29,7 +29,7 @@ const Filters = ({ onFilterChange, handleClose }) => {
   useEffect(() => {
     const fetchFilterOptions = async () => {
       try {
-        const response = await fetch('http://localhost:5000/filters');
+        const response = await fetch('https://data-visualization-5r2a.onrender.com/filters');
         const result = await response.json();
         setFilterOptions(result);
         console.log(result);
