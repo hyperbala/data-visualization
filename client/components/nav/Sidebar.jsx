@@ -12,7 +12,7 @@ const Sidebar = () => {
       <h1 className="text-2xl font-bold mb-4 pt-2 px-3 flex items-center gap-2">
           <SiAnalogue size={25}/>
 
-        BlackCoffer</h1>
+        DashBoard</h1>
       <ul className="space-y-2 flex  flex-col mt-10">
         <li>
           <a href="#" className="hover:bg-gray-300 dark:hover:bg-gray-600 rounded-md px-2 py-3 flex gap-3 items-center"><CiHome size={25}/>
